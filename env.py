@@ -1,0 +1,4 @@
+BOT_TOKEN = ""
+GROUP_ID = ""
+SERVER_IP = ""
+MIN_PLAYERS = 0
