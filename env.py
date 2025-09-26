@@ -2,3 +2,4 @@ BOT_TOKEN = ""
 GROUP_ID = ""
 SERVER_IP = ""
 MIN_PLAYERS = 0
+CHECK_INTERVAL = 5 #minutes

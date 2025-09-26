@@ -6,8 +6,6 @@ import asyncio
 import logging
 
 
-
-
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
@@ -96,7 +94,7 @@ async def monitoring_loop():
             elif onlinePlayers < MIN_PLAYERS:
                 last_alert_players = 0
 
-            await asyncio.sleep(300)
+            await asyncio.sleep(CHECK_INTERVAL * 60)
 
         except asyncio.CancelledError:
             break
